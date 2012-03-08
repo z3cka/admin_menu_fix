@@ -1,0 +1,11 @@
+name = Admin Menu (CSS) Fix
+description = "Fixes an Admin menu css issue with the top bar in chrome (that have been bugging me for a really long time)."
+core = 7.x
+package = Administration
+project = admin_menu_fix
+
+dependencies[] = admin_menu
+
+stylesheets[all][] = admin_menu_fix.css
+
+version = 7.x-1.0
